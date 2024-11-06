@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    background-color: antiquewhite;
+    min-width: 1688px;
+  }
+
+  body div.prods-zone {
+    margin: auto;
+    margin: 30% 30% 20% 20%;
+    position: relative;
+    display: flex;
+    border: 1px solid white;
+    box-shadow: 2px 2px 2px 4px antiquewhite;
+    border-radius: 10px;
+    background-color: white;
+
+  }
+
+  .prods-zone .prods-detail {
+    padding-left: 2%;
+  }
+
+  .prods-zone .prods-detail>h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.5cm;
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .prods-zone .prods-detail>h1 {
+    font-family: "Fraunces", serif;
+    font-weight: bold;
+    padding-bottom: 20px;
+  }
+
+  .prods-zone .prods-detail>p {
+    color: gray;
+    padding-bottom: 20px;
+  }
+
+  .prods-zone .prods-detail>span {
+    color: hsl(158, 36%, 37%);
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  .prods-zone .prods-detail>del {
+    color: hsl(228, 12%, 48%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .prods-zone .prods-detail>button {
+    font-size: 20px;
+    margin-top: 15%;
+    width: 95%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border: 1px none white;
+    border-radius: 10px;
+    color: white;
+    background-color: darkseagreen;
+  }
+
+  .prods-zone .prods-detail>button:active {
+    background-color: darkgreen;
+    box-shadow: 1px 2px 1px darkgreen;
+  }
